@@ -15,5 +15,4 @@ then
 fi
 
 date
-echo "hello"
 echo
