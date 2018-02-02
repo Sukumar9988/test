@@ -1,1 +1,18 @@
-m1
+hr=$(date "+%H")
+
+if [ $hr -ge 3 ] && [ $hr -lt 12 ]
+then
+	echo "Good Morning!"
+elif [ $hr -ge 12 ] && [ $hr -lt 17 ]
+then
+	echo "Good Afternoon!"
+elif [ $hr -ge 17 ] && [ $hr -lt 20 ]
+then
+	echo "Good Evening!"
+elif [ $hr -ge 20 ] && [ $hr -lt 3 ]
+then
+	echo "Good Night!"
+fi
+
+date
+echo
