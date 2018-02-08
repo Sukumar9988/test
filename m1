@@ -1,5 +1,5 @@
 while true
 do
-	echo "hello123"
+	echo "hi"
 	sleep 1
 done
